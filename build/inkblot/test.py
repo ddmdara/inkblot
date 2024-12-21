@@ -1,6 +1,7 @@
 import unittest
 import io
 import sys
+sys.path.append("path/to/inkblot")
 from inkblot import main  # Импортируем функцию, где реализован ваш код Inkblot на Python
 
 class TestInkblot(unittest.TestCase):
